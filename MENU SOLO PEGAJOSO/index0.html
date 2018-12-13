@@ -1,0 +1,45 @@
+<!DOCTYPE html><!--http://www.outyear.co.uk/smint/-->
+<html>
+<head>
+<title>SMINT </title>
+
+
+
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+posicionarMenu();
+
+$(window).scroll(function() {    
+    posicionarMenu();
+});
+
+function posicionarMenu() {
+    var altura_del_header = 150;
+    var altura_del_menu =230;
+
+    if ($(window).scrollTop() >= altura_del_header){
+        $('.menu').css("position", "fixed");  
+		$('.menu').css("top", "0");  
+		
+    } else {
+         $('.menu').css("position", "relative"); 
+
+    }
+}
+
+</script>
+
+</head>
+<body>
+<div class="header">
+    <h1>Tutorial mantener fijo</h1>
+    <h2>Febrero 2018</h2>
+</div>
+
+<div class="menu">esto sería el menú con sus enlaces</div>
+
+<div class="wrapper">wrapper, aquí va el contenido. HAZ SCROLL, VERÁS QUE NO HACE SALTO</div>
+
+</body>
+</html>

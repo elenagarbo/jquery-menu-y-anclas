@@ -1,0 +1,81 @@
+<!DOCTYPE html><!--http://www.outyear.co.uk/smint/-->
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width">
+
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+/*Esto es lo importante    :)   */ 
+$(document).ready(function () {
+	$('a').click(function(e){
+		e.preventDefault();
+		$('html, body').stop().animate({scrollTop: $($(this).attr('href')).offset().top}, 1000);
+	});
+});
+
+</script>
+</head>
+<body>
+
+		<header id="up">
+			<nav>
+				<ul>
+					<li><a href="#ancla1">ancla1</a></li>
+					<li><a href="#ancla2">ancla2</a></li>
+					<li><a href="#ancla3">ancla3</a></li>
+					<li><a href="#ancla4">ancla4</a></li>
+					<li><a href="#footer">footer</a></li>
+				</ul>
+			</nav>
+		</header>
+	
+		<section id="ancla1">
+			<h1>Ancla #1.</h1>
+			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+			
+			<p>Vestibulum ultricies, leo non iaculis gravida, quam nunc tristique sem, in tincidunt nisl sapien vitae nisi. Aliquam ipsum mi, interdum vehicula sodales eu, vulputate vitae leo. Sed fringilla venenatis nisi, in vulputate arcu lobortis sit amet. Nulla ullamcorper, turpis nec semper rutrum, enim magna ultricies nunc, at blandit odio turpis sit amet dolor. Cras cursus quis tortor et pretium. Suspendisse potenti. Ut volutpat, purus eget hendrerit porta, dolor nulla sodales mi, ac accumsan justo sem at justo. Morbi sit amet nulla tristique dolor sollicitudin accumsan nec et eros. Nam et sodales tortor.</p>
+			<p>Cras auctor laoreet quam sit amet vestibulum. Aenean pharetra eleifend nisl semper dignissim. Curabitur at elementum elit. Ut eu imperdiet purus. Cras eros diam, congue et libero vel, lobortis porttitor sapien. Maecenas vitae malesuada turpis, eget viverra ipsum. Mauris nec viverra elit, ut ornare dui.</p>
+			<p>Curabitur lobortis convallis tincidunt. Nunc luctus magna vitae felis congue interdum. Nullam accumsan pellentesque velit vitae dictum. Duis interdum libero at turpis molestie vehicula. Nulla sit amet tortor id turpis rutrum tempor. Sed ac lectus mollis, consequat dolor dictum, semper eros. Duis pharetra, turpis sit amet imperdiet ullamcorper, lectus mi condimentum purus, sit amet mattis neque ipsum id dui. Praesent fringilla, dolor auctor tristique pretium, odio turpis luctus magna, sit amet faucibus lacus nunc vel sem.</p>
+			<a href="#up">Volver Arriba</a>
+		</section>
+	
+		<section id="ancla2">
+			<h1>Ancla #2.</h1>
+			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+			
+			<p>Vestibulum ultricies, leo non iaculis gravida, quam nunc tristique sem, in tincidunt nisl sapien vitae nisi. Aliquam ipsum mi, interdum vehicula sodales eu, vulputate vitae leo. Sed fringilla venenatis nisi, in vulputate arcu lobortis sit amet. Nulla ullamcorper, turpis nec semper rutrum, enim magna ultricies nunc, at blandit odio turpis sit amet dolor. Cras cursus quis tortor et pretium. Suspendisse potenti. Ut volutpat, purus eget hendrerit porta, dolor nulla sodales mi, ac accumsan justo sem at justo. Morbi sit amet nulla tristique dolor sollicitudin accumsan nec et eros. Nam et sodales tortor.</p>
+			<p>Curabitur lobortis convallis tincidunt. Nunc luctus magna vitae felis congue interdum. Nullam accumsan pellentesque velit vitae dictum. Duis interdum libero at turpis molestie vehicula. Nulla sit amet tortor id turpis rutrum tempor. Sed ac lectus mollis, consequat dolor dictum, semper eros. Duis pharetra, turpis sit amet imperdiet ullamcorper, lectus mi condimentum purus, sit amet mattis neque ipsum id dui. Praesent fringilla, dolor auctor tristique pretium, odio turpis luctus magna, sit amet faucibus lacus nunc vel sem.</p>
+			<a href="#up">Volver Arriba</a>
+		</section>
+	
+		<section id="ancla3">
+			<h1>Ancla #3.</h1>
+			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+			
+			<p>Vestibulum ultricies, leo non iaculis gravida, quam nunc tristique sem, in tincidunt nisl sapien vitae nisi. Aliquam ipsum mi, interdum vehicula sodales eu, vulputate vitae leo. Sed fringilla venenatis nisi, in vulputate arcu lobortis sit amet. Nulla ullamcorper, turpis nec semper rutrum, enim magna ultricies nunc, at blandit odio turpis sit amet dolor. Cras cursus quis tortor et pretium. Suspendisse potenti. Ut volutpat, purus eget hendrerit porta, dolor nulla sodales mi, ac accumsan justo sem at justo. Morbi sit amet nulla tristique dolor sollicitudin accumsan nec et eros. Nam et sodales tortor.</p>
+			<p>Cras auctor laoreet quam sit amet vestibulum. Aenean pharetra eleifend nisl semper dignissim. Curabitur at elementum elit. Ut eu imperdiet purus. Cras eros diam, congue et libero vel, lobortis porttitor sapien. Maecenas vitae malesuada turpis, eget viverra ipsum. Mauris nec viverra elit, ut ornare dui.</p>
+			<p>Curabitur lobortis convallis tincidunt. Nunc luctus magna vitae felis congue interdum. Nullam accumsan pellentesque velit vitae dictum. Duis interdum libero at turpis molestie vehicula. Nulla sit amet tortor id turpis rutrum tempor. Sed ac lectus mollis, consequat dolor dictum, semper eros. Duis pharetra, turpis sit amet imperdiet ullamcorper, lectus mi condimentum purus, sit amet mattis neque ipsum id dui. Praesent fringilla, dolor auctor tristique pretium, odio turpis luctus magna, sit amet faucibus lacus nunc vel sem.</p>
+			<a href="#up">Volver Arriba</a>
+		</section>
+	
+		<section id="ancla4">
+			<h1>Ancla #4.</h1>
+			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+			
+			<p>Vestibulum ultricies, leo non iaculis gravida, quam nunc tristique sem, in tincidunt nisl sapien vitae nisi. Aliquam ipsum mi, interdum vehicula sodales eu, vulputate vitae leo. Sed fringilla venenatis nisi, in vulputate arcu lobortis sit amet. Nulla ullamcorper, turpis nec semper rutrum, enim magna ultricies nunc, at blandit odio turpis sit amet dolor. Cras cursus quis tortor et pretium. Suspendisse potenti. Ut volutpat, purus eget hendrerit porta, dolor nulla sodales mi, ac accumsan justo sem at justo. Morbi sit amet nulla tristique dolor sollicitudin accumsan nec et eros. Nam et sodales tortor.</p>
+			<p>Cras auctor laoreet quam sit amet vestibulum. Aenean pharetra eleifend nisl semper dignissim. Curabitur at elementum elit. Ut eu imperdiet purus. Cras eros diam, congue et libero vel, lobortis porttitor sapien. Maecenas vitae malesuada turpis, eget viverra ipsum. Mauris nec viverra elit, ut ornare dui.</p>
+			<p>Vestibulum ultricies, leo non iaculis gravida, quam nunc tristique sem, in tincidunt nisl sapien vitae nisi. Aliquam ipsum mi, interdum vehicula sodales eu, vulputate vitae leo. Sed fringilla venenatis nisi, in vulputate arcu lobortis sit amet. Nulla ullamcorper, turpis nec semper rutrum, enim magna ultricies nunc, at blandit odio turpis sit amet dolor. Cras cursus quis tortor et pretium. Suspendisse potenti. Ut volutpat, purus eget hendrerit porta, dolor nulla sodales mi, ac accumsan justo sem at justo. Morbi sit amet nulla tristique dolor sollicitudin accumsan nec et eros. Nam et sodales tortor.</p>
+			<p>Cras auctor laoreet quam sit amet vestibulum. Aenean pharetra eleifend nisl semper dignissim. Curabitur at elementum elit. Ut eu imperdiet purus. Cras eros diam, congue et libero vel, lobortis porttitor sapien. Maecenas vitae malesuada turpis, eget viverra ipsum. Mauris nec viverra elit, ut ornare dui.</p>
+			<a href="#up">Volver Arriba</a>
+		</section>
+		
+		<footer id="footer">
+			<h1>Footer.</h1>
+			<p>Cras auctor laoreet quam sit amet vestibulum. Aenean pharetra eleifend nisl semper dignissim. Curabitur at elementum elit. Ut eu imperdiet purus. Cras eros diam, congue et libero vel, lobortis porttitor sapien. Maecenas vitae malesuada turpis, eget viverra ipsum. Mauris nec viverra elit, ut ornare dui.</p>
+			<a href="#up">Volver Arriba</a>
+		</footer>
+	</body>
+</html>

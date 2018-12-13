@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Disfrutar Madrid</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon"  href="img/favicon.ico"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
+	  <style>
+	   #contenedor{width:300px;height:200px;background:red;margin:0 auto;overflow:hidden;padding:;}
+	   #contenido{width:900px;height:200px;background:blue;}
+	   #foto1{width:300px;height:200px;background:yellow;float:left;}
+	   #foto2{width:300px;height:200px;background:pink;float:left;}
+	  #foto3{width:300px;height:200px;background:brown;float:left;}
+	  </style>
+	  <script>
+	  
+	  function uno() {
+				var x;	
+				x=$("#contenido");
+				x.animate({marginLeft:-300},500);
+					
+				}
+        function dos() {
+				var x;	
+				x=$("#contenido");
+				x.animate({marginLeft:-600},500);
+					
+				}
+				  function tres() {
+				var x;	
+				x=$("#contenido");
+				x.animate({marginLeft:-900},500);
+					
+				}
+				  function cuatro() {
+				var x;	
+				x=$("#contenido");
+				x.animate({marginLeft:0},500);
+					
+				}
+	  </script>
+	  
+	  
+	 <body>
+	 
+	  <div id="contenedor">
+		<div id="contenido">
+		<div id="foto1"></div>
+	  <div id="foto2"></div>
+	  <div id="foto3"></div>
+	  
+	   </div>
+	  </div>
+	 <input type="button" onclick="uno()"/>
+	   <input type="button" onclick="dos()"/>
+	    <input type="button" onclick="tres()"/>
+		 <input type="button" onclick="cuatro()"/>
+	 
+			</body>
+</html>
